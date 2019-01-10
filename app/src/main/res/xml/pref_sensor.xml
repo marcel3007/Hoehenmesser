@@ -1,0 +1,18 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference
+        android:capitalize="words"
+        android:key="sensor_name"
+        android:title="@string/pref_title_sensor_name" />
+    <Preference
+        android:capitalize="words"
+        android:key="sensor_vendor"
+        android:title="@string/pref_title_sensor_vendor" />
+    <Preference
+        android:capitalize="words"
+        android:key="sensor_max_range"
+        android:title="@string/pref_title_sensor_max_range" />
+    <Preference
+        android:capitalize="words"
+        android:key="sensor_resolution"
+        android:title="@string/pref_title_sensor_resolution" />
+</PreferenceScreen>

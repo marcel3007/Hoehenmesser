@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Höhenmesser</string>
+
+    <string name="pref_header_general">Allgemein</string>
+
+    <string name="pref_title_manual_reference">Aktiviere manuellen Referenzdruck</string>
+    <string name="pref_description_manual_reference">Wenn aktiviert, wird der manuell gesetzte Referenzdruck für die Berechnung verwendet
+    </string>
+
+    <string name="pref_title_manual_reference_value">Referenzdruck</string>
+    <string name="pref_default_floor_height">3.50</string>
+    <string name="pref_title_floor_height">Etagenhöhe</string>
+    <string name="pref_title_sensor_name">Name</string>
+    <string name="settings">Einstellungen</string>
+    <string name="pressure">Druck</string>
+    <string name="hPa">hPa</string>
+    <string name="default_pressure">1013.25</string>
+    <string name="hoehe">Höhe</string>
+    <string name="default_hight">10.35</string>
+    <string name="btnSet">Setzen</string>
+    <string name="pref_default_manual_reference">1013.25</string>
+    <string name="pref_header_sensor">Sensor Informationen</string>
+    <string name="pref_title_sensor_vendor">Hersteller</string>
+    <string name="pref_title_sensor_max_range">Max Bereich</string>
+    <string name="pref_title_sensor_resolution">Auflösung</string>
+    <string name="pref_default_reference_offset">0.0</string>
+    <string name="pref_title_offset">Offset</string>
+</resources>

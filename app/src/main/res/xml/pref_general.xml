@@ -1,0 +1,40 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="reference_switch"
+        android:summary="@string/pref_description_manual_reference"
+        android:title="@string/pref_title_manual_reference" />
+
+    <EditTextPreference
+        android:dependency="reference_switch"
+        android:capitalize="words"
+        android:defaultValue="@string/pref_default_manual_reference"
+        android:inputType="numberDecimal"
+        android:key="reference_value"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_manual_reference_value" />
+
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="@string/pref_default_reference_offset"
+        android:inputType="numberSigned|numberDecimal"
+        android:key="reference_offset"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_offset" />
+
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="@string/pref_default_floor_height"
+        android:inputType="numberDecimal"
+        android:key="floor_height"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_floor_height" />
+
+</PreferenceScreen>
